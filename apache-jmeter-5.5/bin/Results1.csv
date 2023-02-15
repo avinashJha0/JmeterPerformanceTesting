@@ -1,0 +1,93 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1676389827862,6439,Login,200,OK,Thread Group 1-2,text,true,,368218,5584,2,2,https://katalon-demo-cura.herokuapp.com/profile.php#login,1452,0,1052
+1676389827862,1452,Login-0,200,OK,Thread Group 1-2,text,true,,7628,523,2,2,https://katalon-demo-cura.herokuapp.com/profile.php#login,1452,0,1052
+1676389829315,4320,Login-1,200,OK,Thread Group 1-2,text,true,,122211,556,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css,1274,0,364
+1676389829315,2748,Login-2,200,OK,Thread Group 1-2,text,true,,16747,570,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css,2625,0,1174
+1676389829315,1238,Login-3,200,OK,Thread Group 1-2,text,true,,3464,577,2,2,https://katalon-demo-cura.herokuapp.com/css/theme.css,1238,0,0
+1676389829315,4416,Login-4,200,OK,Thread Group 1-2,text,true,,31988,554,2,2,https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css,3806,0,1197
+1676389829315,3792,Login-5,200,OK,Thread Group 1-2,text,true,,14067,569,2,2,"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic",2764,0,1153
+1676389829315,4143,Login-6,200,OK,Thread Group 1-2,text,true,,97011,538,2,2,https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js,1592,0,533
+1676389830554,3747,Login-7,200,OK,Thread Group 1-2,text,true,,38057,554,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js,3362,0,3148
+1676389832064,1840,Login-8,200,OK,Thread Group 1-2,text,true,,35189,568,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js,1677,0,1420
+1676389833108,579,Login-9,200,OK,Thread Group 1-2,text,true,,1856,575,2,2,https://katalon-demo-cura.herokuapp.com/js/theme.js,579,0,0
+1676389827362,7551,Login,200,OK,Thread Group 1-1,text,true,,368200,5584,2,2,https://katalon-demo-cura.herokuapp.com/profile.php#login,1687,0,1292
+1676389827362,1687,Login-0,200,OK,Thread Group 1-1,text,true,,7628,523,2,2,https://katalon-demo-cura.herokuapp.com/profile.php#login,1687,0,1292
+1676389829050,3887,Login-1,200,OK,Thread Group 1-1,text,true,,122211,556,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css,836,0,294
+1676389829050,815,Login-2,200,OK,Thread Group 1-1,text,true,,16743,570,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css,664,0,286
+1676389829050,643,Login-3,200,OK,Thread Group 1-1,text,true,,3464,577,2,2,https://katalon-demo-cura.herokuapp.com/css/theme.css,643,0,0
+1676389829050,606,Login-4,200,OK,Thread Group 1-1,text,true,,31982,554,2,2,https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css,373,0,287
+1676389829050,587,Login-5,200,OK,Thread Group 1-1,text,true,,14067,569,2,2,"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic",403,0,228
+1676389829050,4393,Login-6,200,OK,Thread Group 1-1,text,true,,97009,538,2,2,https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js,1044,0,320
+1676389829638,5163,Login-7,200,OK,Thread Group 1-1,text,true,,38055,554,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js,4978,0,4891
+1676389829657,5256,Login-8,200,OK,Thread Group 1-1,text,true,,35185,568,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js,5073,0,4952
+1676389829694,4243,Login-9,200,OK,Thread Group 1-1,text,true,,1856,575,2,2,https://katalon-demo-cura.herokuapp.com/js/theme.js,4243,0,3854
+1676389841317,1316,Authenticate,200,OK,Thread Group 1-1,text,true,,28100,7539,2,2,https://katalon-demo-cura.herokuapp.com/profile.php#login,408,0,0
+1676389841317,408,Authenticate-0,302,Found,Thread Group 1-1,text,true,,353,685,2,2,https://katalon-demo-cura.herokuapp.com/authenticate.php,408,0,0
+1676389841725,398,Authenticate-1,200,OK,Thread Group 1-1,text,true,,7697,624,2,2,https://katalon-demo-cura.herokuapp.com/profile.php#login,398,0,0
+1676389842124,132,Authenticate-2,304,Not Modified,Thread Group 1-1,,true,,916,690,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css,0,0,0
+1676389842124,150,Authenticate-3,304,Not Modified,Thread Group 1-1,,true,,916,703,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css,0,0,0
+1676389842124,388,Authenticate-4,304,Not Modified,Thread Group 1-1,,true,,236,712,2,2,https://katalon-demo-cura.herokuapp.com/css/theme.css,0,0,0
+1676389842124,115,Authenticate-5,304,Not Modified,Thread Group 1-1,,true,,918,687,2,2,https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css,0,0,0
+1676389842124,212,Authenticate-6,200,OK,Thread Group 1-1,text,true,,14067,668,2,2,"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic",179,0,0
+1676389842124,102,Authenticate-7,304,Not Modified,Thread Group 1-1,,true,,921,672,2,2,https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js,0,0,0
+1676389842227,352,Authenticate-8,304,Not Modified,Thread Group 1-1,,true,,922,687,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js,0,0,223
+1676389842239,101,Authenticate-9,304,Not Modified,Thread Group 1-1,,true,,918,701,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js,0,0,0
+1676389842256,377,Authenticate-10,304,Not Modified,Thread Group 1-1,,true,,236,710,2,2,https://katalon-demo-cura.herokuapp.com/js/theme.js,0,0,0
+1676389845139,2665,Authenticate,200,OK,Thread Group 1-2,text,true,,28990,7538,2,2,https://katalon-demo-cura.herokuapp.com/#appointment,425,0,0
+1676389845139,425,Authenticate-0,302,Found,Thread Group 1-2,text,true,,348,695,2,2,https://katalon-demo-cura.herokuapp.com/authenticate.php,425,0,0
+1676389845564,376,Authenticate-1,200,OK,Thread Group 1-2,text,true,,8589,613,2,2,https://katalon-demo-cura.herokuapp.com/#appointment,376,0,0
+1676389845941,123,Authenticate-2,304,Not Modified,Thread Group 1-2,,true,,922,690,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css,0,0,0
+1676389845941,125,Authenticate-3,304,Not Modified,Thread Group 1-2,,true,,916,703,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css,0,0,0
+1676389845941,358,Authenticate-4,304,Not Modified,Thread Group 1-2,,true,,236,712,2,2,https://katalon-demo-cura.herokuapp.com/css/theme.css,0,0,0
+1676389845941,82,Authenticate-5,304,Not Modified,Thread Group 1-2,,true,,924,687,2,2,https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css,0,0,0
+1676389845941,170,Authenticate-6,200,OK,Thread Group 1-2,text,true,,14067,668,2,2,"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic",145,0,0
+1676389845941,94,Authenticate-7,304,Not Modified,Thread Group 1-2,,true,,917,672,2,2,https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js,0,0,0
+1676389846023,291,Authenticate-8,304,Not Modified,Thread Group 1-2,,true,,916,687,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js,0,0,190
+1676389846036,230,Authenticate-9,304,Not Modified,Thread Group 1-2,,true,,919,701,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js,0,0,144
+1676389846065,1739,Authenticate-10,304,Not Modified,Thread Group 1-2,,true,,236,710,2,2,https://katalon-demo-cura.herokuapp.com/js/theme.js,0,0,1158
+1676389874067,1110,AppointmentSummary,200,OK,Thread Group 1-1,text,true,,26770,6995,2,2,https://katalon-demo-cura.herokuapp.com/appointment.php#summary,627,0,0
+1676389874067,627,AppointmentSummary-0,200,OK,Thread Group 1-1,text,true,,6714,765,2,2,https://katalon-demo-cura.herokuapp.com/appointment.php#summary,627,0,0
+1676389874696,128,AppointmentSummary-1,304,Not Modified,Thread Group 1-1,,true,,928,690,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css,0,0,0
+1676389874696,112,AppointmentSummary-2,304,Not Modified,Thread Group 1-1,,true,,914,703,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css,0,0,0
+1676389874696,381,AppointmentSummary-3,304,Not Modified,Thread Group 1-1,,true,,236,712,2,2,https://katalon-demo-cura.herokuapp.com/css/theme.css,0,0,0
+1676389874696,116,AppointmentSummary-4,304,Not Modified,Thread Group 1-1,,true,,922,687,2,2,https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css,0,0,0
+1676389874696,251,AppointmentSummary-5,200,OK,Thread Group 1-1,text,true,,14067,668,2,2,"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic",172,0,0
+1676389874696,140,AppointmentSummary-6,304,Not Modified,Thread Group 1-1,,true,,919,672,2,2,https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js,0,0,0
+1676389874808,148,AppointmentSummary-7,304,Not Modified,Thread Group 1-1,,true,,922,687,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js,0,0,0
+1676389874812,135,AppointmentSummary-8,304,Not Modified,Thread Group 1-1,,true,,912,701,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js,0,0,0
+1676389874825,352,AppointmentSummary-9,304,Not Modified,Thread Group 1-1,,true,,236,710,2,2,https://katalon-demo-cura.herokuapp.com/js/theme.js,0,0,0
+1676389886397,2050,AppointmentSummary,200,OK,Thread Group 1-2,text,true,,27012,7004,2,2,https://katalon-demo-cura.herokuapp.com/appointment.php#summary,412,0,0
+1676389886397,412,AppointmentSummary-0,200,OK,Thread Group 1-2,text,true,,6964,774,2,2,https://katalon-demo-cura.herokuapp.com/appointment.php#summary,412,0,0
+1676389886812,163,AppointmentSummary-1,304,Not Modified,Thread Group 1-2,,true,,920,690,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css,0,0,0
+1676389886812,121,AppointmentSummary-2,304,Not Modified,Thread Group 1-2,,true,,910,703,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css,0,0,0
+1676389886812,386,AppointmentSummary-3,304,Not Modified,Thread Group 1-2,,true,,236,712,2,2,https://katalon-demo-cura.herokuapp.com/css/theme.css,0,0,0
+1676389886812,116,AppointmentSummary-4,304,Not Modified,Thread Group 1-2,,true,,918,687,2,2,https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css,0,0,0
+1676389886812,211,AppointmentSummary-5,200,OK,Thread Group 1-2,text,true,,14067,668,2,2,"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic",166,0,0
+1676389886812,133,AppointmentSummary-6,304,Not Modified,Thread Group 1-2,,true,,923,672,2,2,https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js,0,0,0
+1676389886929,109,AppointmentSummary-7,304,Not Modified,Thread Group 1-2,,true,,914,687,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js,0,0,0
+1676389886934,104,AppointmentSummary-8,304,Not Modified,Thread Group 1-2,,true,,924,701,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js,0,0,0
+1676389886946,1501,AppointmentSummary-9,304,Not Modified,Thread Group 1-2,,true,,236,710,2,2,https://katalon-demo-cura.herokuapp.com/js/theme.js,0,0,1079
+1676389897474,4477,Logout,200,OK,Thread Group 1-1,text,true,,24920,6941,2,2,https://katalon-demo-cura.herokuapp.com/,2134,0,1529
+1676389897474,2134,Logout-0,302,Found,Thread Group 1-1,text,true,,336,588,2,2,https://katalon-demo-cura.herokuapp.com/authenticate.php?logout=,2134,0,1529
+1676389899608,379,Logout-1,200,OK,Thread Group 1-1,text,true,,4537,564,2,2,https://katalon-demo-cura.herokuapp.com/,379,0,0
+1676389899989,259,Logout-2,304,Not Modified,Thread Group 1-1,,true,,913,641,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css,0,0,161
+1676389899989,286,Logout-3,304,Not Modified,Thread Group 1-1,,true,,926,654,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css,0,0,189
+1676389899989,541,Logout-4,304,Not Modified,Thread Group 1-1,,true,,236,663,2,2,https://katalon-demo-cura.herokuapp.com/css/theme.css,0,0,0
+1676389899989,319,Logout-5,304,Not Modified,Thread Group 1-1,,true,,912,638,2,2,https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css,0,0,224
+1676389899989,549,Logout-6,200,OK,Thread Group 1-1,text,true,,14067,619,2,2,"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic",386,0,235
+1676389899989,338,Logout-7,304,Not Modified,Thread Group 1-1,,true,,919,623,2,2,https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js,0,0,222
+1676389900248,109,Logout-8,304,Not Modified,Thread Group 1-1,,true,,918,638,2,2,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js,0,0,0
+1676389900276,461,Logout-9,304,Not Modified,Thread Group 1-1,,true,,920,652,2,2,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js,0,0,349
+1676389900308,1643,Logout-10,304,Not Modified,Thread Group 1-1,,true,,236,661,2,2,https://katalon-demo-cura.herokuapp.com/js/theme.js,0,0,1271
+1676389916000,2847,Logout,200,OK,Thread Group 1-2,text,true,,24928,6941,1,1,https://katalon-demo-cura.herokuapp.com/,607,0,0
+1676389916000,607,Logout-0,302,Found,Thread Group 1-2,text,true,,336,588,1,1,https://katalon-demo-cura.herokuapp.com/authenticate.php?logout=,607,0,0
+1676389916607,398,Logout-1,200,OK,Thread Group 1-2,text,true,,4537,564,1,1,https://katalon-demo-cura.herokuapp.com/,398,0,0
+1676389917007,294,Logout-2,304,Not Modified,Thread Group 1-2,,true,,925,641,1,1,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css,0,0,130
+1676389917007,330,Logout-3,304,Not Modified,Thread Group 1-2,,true,,918,654,1,1,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css,0,0,181
+1676389917007,381,Logout-4,304,Not Modified,Thread Group 1-2,,true,,236,663,1,1,https://katalon-demo-cura.herokuapp.com/css/theme.css,0,0,0
+1676389917007,308,Logout-5,304,Not Modified,Thread Group 1-2,,true,,916,638,1,1,https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css,0,0,140
+1676389917008,578,Logout-6,200,OK,Thread Group 1-2,text,true,,14067,619,1,1,"https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic",429,0,271
+1676389917007,353,Logout-7,304,Not Modified,Thread Group 1-2,,true,,917,623,1,1,https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js,0,0,186
+1676389917301,448,Logout-8,304,Not Modified,Thread Group 1-2,,true,,922,638,1,1,https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js,0,0,319
+1676389917316,370,Logout-9,304,Not Modified,Thread Group 1-2,,true,,918,652,1,1,https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js,0,0,273
+1676389917337,1510,Logout-10,304,Not Modified,Thread Group 1-2,,true,,236,661,1,1,https://katalon-demo-cura.herokuapp.com/js/theme.js,0,0,1079
