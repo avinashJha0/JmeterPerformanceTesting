@@ -93,14 +93,14 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">1</stringProp>
+          <intProp name="LoopController.loops">-1</intProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">40</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">20</stringProp>
+        <stringProp name="ThreadGroup.num_threads">2</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration">0</stringProp>
         <stringProp name="ThreadGroup.delay">0</stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
       </ThreadGroup>
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Login" enabled="true">
@@ -136,14 +136,6 @@
             <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">8</intProp>
-          </ResponseAssertion>
-          <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
-            <collectionProp name="Asserion.test_strings"/>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
           <hashTree/>
         </hashTree>
@@ -203,7 +195,7 @@
           </SizeAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Appointment" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="AppointmentSummary" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="hospital_readmission" elementType="HTTPArgument">
@@ -343,7 +335,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename"></stringProp>
+        <stringProp name="filename">Results.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="StatVisualizer" testclass="ResultCollector" testname="Aggregate Report" enabled="true">
@@ -380,7 +372,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">Result.csv</stringProp>
+        <stringProp name="filename">Results.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
@@ -457,43 +449,6 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResultCollector guiclass="RespTimeGraphVisualizer" testclass="ResultCollector" testname="Response Time Graph" enabled="true">
-        <boolProp name="ResultCollector.error_logging">false</boolProp>
-        <objProp>
-          <name>saveConfig</name>
-          <value class="SampleSaveConfiguration">
-            <time>true</time>
-            <latency>true</latency>
-            <timestamp>true</timestamp>
-            <success>true</success>
-            <label>true</label>
-            <code>true</code>
-            <message>true</message>
-            <threadName>true</threadName>
-            <dataType>true</dataType>
-            <encoding>false</encoding>
-            <assertions>true</assertions>
-            <subresults>true</subresults>
-            <responseData>false</responseData>
-            <samplerData>false</samplerData>
-            <xml>false</xml>
-            <fieldNames>true</fieldNames>
-            <responseHeaders>false</responseHeaders>
-            <requestHeaders>false</requestHeaders>
-            <responseDataOnError>false</responseDataOnError>
-            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
-            <assertionsResultsToSave>0</assertionsResultsToSave>
-            <bytes>true</bytes>
-            <sentBytes>true</sentBytes>
-            <url>true</url>
-            <threadCounts>true</threadCounts>
-            <idleTime>true</idleTime>
-            <connectTime>true</connectTime>
-          </value>
-        </objProp>
-        <stringProp name="filename">C:\Users\avinash.jha\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin\Result.csv</stringProp>
-      </ResultCollector>
-      <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="fileEncoding"></stringProp>
@@ -505,33 +460,6 @@
         <boolProp name="stopThread">false</boolProp>
         <stringProp name="variableNames">username,password,hospital_readmission,comment,programs,facility,visit_date</stringProp>
       </CSVDataSet>
-      <hashTree/>
-      <kg.apc.jmeter.listener.GraphsGeneratorListener guiclass="TestBeanGUI" testclass="kg.apc.jmeter.listener.GraphsGeneratorListener" testname="jp@gc - Graphs Generator" enabled="true">
-        <boolProp name="aggregateRows">false</boolProp>
-        <boolProp name="autoScaleRows">false</boolProp>
-        <stringProp name="endOffset"></stringProp>
-        <stringProp name="excludeLabels"></stringProp>
-        <boolProp name="excludeSamplesWithRegex">false</boolProp>
-        <intProp name="exportMode">2</intProp>
-        <stringProp name="filePrefix"></stringProp>
-        <stringProp name="forceY"></stringProp>
-        <stringProp name="granulation">60000</stringProp>
-        <intProp name="graphHeight">600</intProp>
-        <intProp name="graphWidth">800</intProp>
-        <stringProp name="includeLabels"></stringProp>
-        <boolProp name="includeSamplesWithRegex">false</boolProp>
-        <stringProp name="limitRows">150</stringProp>
-        <stringProp name="lineWeight"></stringProp>
-        <stringProp name="lowCountLimit"></stringProp>
-        <stringProp name="outputBaseFolder">C:\Users\avinash.jha\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin</stringProp>
-        <boolProp name="paintGradient">true</boolProp>
-        <boolProp name="paintZeroing">true</boolProp>
-        <boolProp name="preventOutliers">false</boolProp>
-        <boolProp name="relativeTimes">false</boolProp>
-        <stringProp name="resultsFileName">Result.csv</stringProp>
-        <stringProp name="startOffset"></stringProp>
-        <stringProp name="successFilter"></stringProp>
-      </kg.apc.jmeter.listener.GraphsGeneratorListener>
       <hashTree/>
     </hashTree>
   </hashTree>

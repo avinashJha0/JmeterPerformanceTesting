@@ -198,12 +198,12 @@
           <hashTree/>
           <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion" enabled="true">
             <stringProp name="Assertion.test_field">SizeAssertion.response_network_size</stringProp>
-            <stringProp name="SizeAssertion.size">25000</stringProp>
+            <stringProp name="SizeAssertion.size">30000</stringProp>
             <intProp name="SizeAssertion.operator">3</intProp>
           </SizeAssertion>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Appointment" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Apoointment" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
             <collectionProp name="Arguments.arguments">
               <elementProp name="hospital_readmission" elementType="HTTPArgument">
@@ -491,7 +491,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\avinash.jha\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin\Result.csv</stringProp>
+        <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
@@ -512,7 +512,7 @@
         <stringProp name="endOffset"></stringProp>
         <stringProp name="excludeLabels"></stringProp>
         <boolProp name="excludeSamplesWithRegex">false</boolProp>
-        <intProp name="exportMode">2</intProp>
+        <intProp name="exportMode">0</intProp>
         <stringProp name="filePrefix"></stringProp>
         <stringProp name="forceY"></stringProp>
         <stringProp name="granulation">60000</stringProp>
@@ -523,12 +523,12 @@
         <stringProp name="limitRows">150</stringProp>
         <stringProp name="lineWeight"></stringProp>
         <stringProp name="lowCountLimit"></stringProp>
-        <stringProp name="outputBaseFolder">C:\Users\avinash.jha\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin</stringProp>
+        <stringProp name="outputBaseFolder"></stringProp>
         <boolProp name="paintGradient">true</boolProp>
         <boolProp name="paintZeroing">true</boolProp>
         <boolProp name="preventOutliers">false</boolProp>
         <boolProp name="relativeTimes">false</boolProp>
-        <stringProp name="resultsFileName">Result.csv</stringProp>
+        <stringProp name="resultsFileName"></stringProp>
         <stringProp name="startOffset"></stringProp>
         <stringProp name="successFilter"></stringProp>
       </kg.apc.jmeter.listener.GraphsGeneratorListener>

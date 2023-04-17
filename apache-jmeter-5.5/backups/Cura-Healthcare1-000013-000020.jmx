@@ -95,8 +95,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">40</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">20</stringProp>
+        <stringProp name="ThreadGroup.num_threads">10</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">5</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration">0</stringProp>
         <stringProp name="ThreadGroup.delay">0</stringProp>
@@ -190,17 +190,45 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
-            <stringProp name="RandomTimer.range">12305.0</stringProp>
-            <stringProp name="ConstantTimer.delay">6152.5</stringProp>
-            <stringProp name="TestPlan.comments">Recorded time was 12305 milliseconds</stringProp>
-          </UniformRandomTimer>
-          <hashTree/>
           <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion" enabled="true">
             <stringProp name="Assertion.test_field">SizeAssertion.response_network_size</stringProp>
             <stringProp name="SizeAssertion.size">25000</stringProp>
             <intProp name="SizeAssertion.operator">3</intProp>
           </SizeAssertion>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Logout" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="logout" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">true</boolProp>
+                <stringProp name="Argument.name">logout</stringProp>
+                <stringProp name="Argument.value"></stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+                <boolProp name="HTTPArgument.use_equals">true</boolProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
+          <stringProp name="HTTPSampler.port"></stringProp>
+          <stringProp name="HTTPSampler.protocol">https</stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">authenticate.php</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+          <stringProp name="HTTPSampler.response_timeout"></stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
+            <stringProp name="RandomTimer.range">19726.0</stringProp>
+            <stringProp name="ConstantTimer.delay">9863</stringProp>
+            <stringProp name="TestPlan.comments">Recorded time was 19726 milliseconds</stringProp>
+          </UniformRandomTimer>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Appointment" enabled="true">
@@ -271,40 +299,6 @@
             <stringProp name="RandomTimer.range">27808.0</stringProp>
             <stringProp name="ConstantTimer.delay">13904</stringProp>
             <stringProp name="TestPlan.comments">Recorded time was 27808 milliseconds</stringProp>
-          </UniformRandomTimer>
-          <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Logout" enabled="true">
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="logout" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                <stringProp name="Argument.name">logout</stringProp>
-                <stringProp name="Argument.value"></stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-                <boolProp name="HTTPArgument.use_equals">true</boolProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${BASE_URL_1}</stringProp>
-          <stringProp name="HTTPSampler.port"></stringProp>
-          <stringProp name="HTTPSampler.protocol">https</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">authenticate.php</stringProp>
-          <stringProp name="HTTPSampler.method">GET</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
-          <UniformRandomTimer guiclass="UniformRandomTimerGui" testclass="UniformRandomTimer" testname="Uniform Random Timer" enabled="true">
-            <stringProp name="RandomTimer.range">19726.0</stringProp>
-            <stringProp name="ConstantTimer.delay">9863</stringProp>
-            <stringProp name="TestPlan.comments">Recorded time was 19726 milliseconds</stringProp>
           </UniformRandomTimer>
           <hashTree/>
         </hashTree>
@@ -380,7 +374,7 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">Result.csv</stringProp>
+        <stringProp name="filename">D:\apache-jmeter-5.5\apache-jmeter-5.5\bin\Result.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <ResultCollector guiclass="GraphVisualizer" testclass="ResultCollector" testname="Graph Results" enabled="true">
@@ -491,13 +485,13 @@
             <connectTime>true</connectTime>
           </value>
         </objProp>
-        <stringProp name="filename">C:\Users\avinash.jha\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin\Result.csv</stringProp>
+        <stringProp name="filename">D:\apache-jmeter-5.5\apache-jmeter-5.5\bin\Result.csv</stringProp>
       </ResultCollector>
       <hashTree/>
       <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="CSV Data Set Config" enabled="true">
         <stringProp name="delimiter">,</stringProp>
         <stringProp name="fileEncoding"></stringProp>
-        <stringProp name="filename">C:/Users/avinash.jha/Downloads/apache-jmeter-5.5/apache-jmeter-5.5/bin/Data.csv</stringProp>
+        <stringProp name="filename">D:/apache-jmeter-5.5/apache-jmeter-5.5/bin/Data.csv</stringProp>
         <boolProp name="ignoreFirstLine">false</boolProp>
         <boolProp name="quotedData">false</boolProp>
         <boolProp name="recycle">true</boolProp>
@@ -505,33 +499,6 @@
         <boolProp name="stopThread">false</boolProp>
         <stringProp name="variableNames">username,password,hospital_readmission,comment,programs,facility,visit_date</stringProp>
       </CSVDataSet>
-      <hashTree/>
-      <kg.apc.jmeter.listener.GraphsGeneratorListener guiclass="TestBeanGUI" testclass="kg.apc.jmeter.listener.GraphsGeneratorListener" testname="jp@gc - Graphs Generator" enabled="true">
-        <boolProp name="aggregateRows">false</boolProp>
-        <boolProp name="autoScaleRows">false</boolProp>
-        <stringProp name="endOffset"></stringProp>
-        <stringProp name="excludeLabels"></stringProp>
-        <boolProp name="excludeSamplesWithRegex">false</boolProp>
-        <intProp name="exportMode">2</intProp>
-        <stringProp name="filePrefix"></stringProp>
-        <stringProp name="forceY"></stringProp>
-        <stringProp name="granulation">60000</stringProp>
-        <intProp name="graphHeight">600</intProp>
-        <intProp name="graphWidth">800</intProp>
-        <stringProp name="includeLabels"></stringProp>
-        <boolProp name="includeSamplesWithRegex">false</boolProp>
-        <stringProp name="limitRows">150</stringProp>
-        <stringProp name="lineWeight"></stringProp>
-        <stringProp name="lowCountLimit"></stringProp>
-        <stringProp name="outputBaseFolder">C:\Users\avinash.jha\Downloads\apache-jmeter-5.5\apache-jmeter-5.5\bin</stringProp>
-        <boolProp name="paintGradient">true</boolProp>
-        <boolProp name="paintZeroing">true</boolProp>
-        <boolProp name="preventOutliers">false</boolProp>
-        <boolProp name="relativeTimes">false</boolProp>
-        <stringProp name="resultsFileName">Result.csv</stringProp>
-        <stringProp name="startOffset"></stringProp>
-        <stringProp name="successFilter"></stringProp>
-      </kg.apc.jmeter.listener.GraphsGeneratorListener>
       <hashTree/>
     </hashTree>
   </hashTree>
